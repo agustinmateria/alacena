@@ -16,7 +16,7 @@ Apretá este botón. Te va a pedir crear una cuenta en Vercel (gratis) y
 copiar este proyecto a tu propio GitHub. En unos minutos tenés tu app
 funcionando en internet, con su propia dirección.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/agustinmateria/menu-semanal)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/agustinmateria/alacena)
 
 **No te va a pedir ninguna clave.** Eso es a propósito. Primero se pone
 online, después se cargan las claves. Ver el [punto 5](#5-cómo-cargar-las-claves-en-vercel).
@@ -51,8 +51,8 @@ sola la versión correcta (está anotada en el archivo `.nvmrc`).
 Copiá y pegá esto en la terminal, uno por uno:
 
 ```bash
-git clone https://github.com/agustinmateria/menu-semanal.git
-cd menu-semanal
+git clone https://github.com/agustinmateria/alacena.git
+cd alacena
 npm install
 cp .env.example .env.local
 npm run dev
@@ -63,7 +63,7 @@ Qué hace cada uno:
 | Comando | Qué hace |
 |---|---|
 | `git clone ...` | Baja una copia del proyecto a tu computadora. |
-| `cd menu-semanal` | Te mete adentro de la carpeta del proyecto. |
+| `cd alacena` | Te mete adentro de la carpeta del proyecto. |
 | `npm install` | Baja las piezas que el proyecto necesita para andar. Tarda un rato la primera vez. |
 | `cp .env.example .env.local` | Crea tu archivo de claves, vacío por ahora. |
 | `npm run dev` | Enciende la app. |
